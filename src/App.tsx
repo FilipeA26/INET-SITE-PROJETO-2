@@ -1,6 +1,7 @@
 import { MessageCircle } from "lucide-react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import EyeSection from "./components/EyeSection";
 import Stats from "./components/Stats";
 import Plans from "./components/Plans";
 import Bento from "./components/Bento";
@@ -15,6 +16,7 @@ export default function App() {
       <Header />
       <main>
         <Hero />
+        <EyeSection />
         <Stats />
         <Plans />
         <Bento />
